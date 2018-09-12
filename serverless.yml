@@ -105,3 +105,6 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+resources:
+  # Cognito
+  - ${file(resources/cognito-user-pool.yml)}
