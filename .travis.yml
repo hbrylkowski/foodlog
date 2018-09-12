@@ -1,0 +1,7 @@
+deploy:
+  provider: script
+  script:
+    - npm install -g serverless
+    - sls deploy
+  on:
+    branch: master
