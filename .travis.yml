@@ -1,8 +1,6 @@
 language: nodejs
 deploy:
   provider: script
-  script:
-    - npm install -g serverless
-    - sls deploy
+  script: bash deploy.sh
   on:
     branch: master
