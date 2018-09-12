@@ -1,3 +1,4 @@
+language: nodejs
 deploy:
   provider: script
   script:
