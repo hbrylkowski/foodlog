@@ -1,4 +1,4 @@
-language: nodejs
+language: node_js
 deploy:
   provider: script
   script: bash deploy.sh
